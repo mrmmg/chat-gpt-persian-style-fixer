@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "OpenAI Chat Page Persian Text Fixer",
+    "version": "0.0.1",
+    "description": "Enhance your experience on the OpenAI (ChatGPT) chat page with this Persian style fixer. It improves the readability of Persian text, making your reading experience more enjoyable! :)",
+    "icons": {
+      "48": "icon-fa.png"
+    },
+    "action": {
+      "default_icon": "icon-fa.png",
+      "default_popup": "popup.html"
+    },
+    "host_permissions": [
+      "https://chat.openai.com/*"
+    ],
+    "content_scripts": [
+        {
+          "matches": ["<all_urls>"],
+          "js": ["content.js"]
+        }
+    ]
+  }
+  

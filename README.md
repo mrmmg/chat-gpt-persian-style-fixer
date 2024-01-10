@@ -1,0 +1,2 @@
+# OpenAI Chat Page Persian Text Fixer
+Enhance your experience on the OpenAI (ChatGPT) chat page with this Persian style fixer. It improves the readability of Persian text, making your reading experience more enjoyable!
